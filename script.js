@@ -17,7 +17,7 @@ let biglietto = km * 0.21;
 let Percentuale20 = (biglietto / 100) * 20;
 let prezzofinale1 = biglietto - Percentuale20;
 
-let Percentuale30 = (biglietto / 100) * 40;
+let Percentuale40 = (biglietto / 100) * 40;
 let prezzofinale2 = biglietto - Percentuale40;
 
 // Imposto la Condizione
