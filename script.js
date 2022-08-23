@@ -17,8 +17,8 @@ let biglietto = km * 0.21;
 let Percentuale20 = (biglietto / 100) * 20;
 let prezzofinale1 = biglietto - Percentuale20;
 
-let Percentuale30 = (biglietto / 100) * 30;
-let prezzofinale2 = biglietto - Percentuale30;
+let Percentuale30 = (biglietto / 100) * 40;
+let prezzofinale2 = biglietto - Percentuale40;
 
 // Imposto la Condizione
 
@@ -27,4 +27,7 @@ if (textAsNumber < '18') {
 } else {
     console.log(prezzofinale2);
 }
+
+// document.writeln('prezzofinale2');
+
 
