@@ -1,6 +1,6 @@
 
-const text = prompt ('quanti anni hai?');
-const textAsNumber = parseInt(text);
+const etaPasseggero = prompt ('quanti anni hai?');
+const textAsNumber = parseInt(etaPasseggero);
 
 console.log(textAsNumber);
 
