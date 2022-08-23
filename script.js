@@ -10,11 +10,21 @@ const number = parseInt(km);
 console.log(km);
 
 
+let biglietto = km * 0.21;
 
+// Calcolo percentuale 
 
+let Percentuale20 = (biglietto / 100) * 20;
+let prezzofinale1 = biglietto - Percentuale20;
 
-if (text < '18') {
+let Percentuale30 = (biglietto / 100) * 30;
+let prezzofinale2 = biglietto - Percentuale30;
 
-} console.log ()
+// Imposto la Condizione
 
+if (textAsNumber < '18') {
+    console.log(prezzofinale1);
+} else {
+    console.log(prezzofinale2);
+}
 
