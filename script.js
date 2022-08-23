@@ -9,12 +9,9 @@ const number = parseInt(km);
 
 console.log(km);
 
+// Calcolo prezzo biglietto
 
 let biglietto = km * 0.21;
-
-// Calcolo percentuale 
-
-
 
 // Imposto la Condizione
 
