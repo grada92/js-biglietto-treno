@@ -14,20 +14,21 @@ let biglietto = km * 0.21;
 
 // Calcolo percentuale 
 
-let Percentuale20 = (biglietto / 100) * 20;
-let prezzofinale1 = biglietto - Percentuale20;
 
-let Percentuale40 = (biglietto / 100) * 40;
-let prezzofinale2 = biglietto - Percentuale40;
 
 // Imposto la Condizione
 
-if (textAsNumber < '18') {
-    console.log(prezzofinale1);
-} else {
-    console.log(prezzofinale2);
+if (textAsNumber < 18) {
+    let Percentuale20 = (biglietto / 100) * 20;
+    biglietto = biglietto - Percentuale20;
+    
+} else if (textAsNumber > 65) {
+    let Percentuale40 = (biglietto / 100) * 40;
+    biglietto = biglietto - Percentuale40;
 }
-
+//   console.log(biglietto)
 // document.writeln('prezzofinale2');
+
+document.getElementById('ticket').innerHTML = 'il prezzo del biglietto è' + biglietto
 
 
