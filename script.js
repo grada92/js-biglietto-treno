@@ -26,6 +26,6 @@ if (textAsNumber < 18) {
 //   console.log(biglietto)
 // document.writeln('prezzofinale2');
 
-document.getElementById('ticket').innerHTML = 'il prezzo del biglietto è' + biglietto
+document.getElementById('ticket').innerHTML = 'il prezzo del biglietto è' + biglietto.toFixed(2)
 
 
